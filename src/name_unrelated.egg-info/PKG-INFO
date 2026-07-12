@@ -1,0 +1,39 @@
+Metadata-Version: 2.4
+Name: name-unrelated
+Version: 0.1.0
+Summary: Document processing and analysis pipeline
+License-File: LICENSE
+Requires-Dist: PyPDF2
+Requires-Dist: pdf2image
+Requires-Dist: pdfplumber
+Requires-Dist: PyYAML
+Requires-Dist: opencv-python
+Requires-Dist: Pillow
+Requires-Dist: pytesseract
+Requires-Dist: easyocr
+Requires-Dist: layoutparser
+Requires-Dist: detectron2
+Requires-Dist: torch
+Requires-Dist: tensorflow
+Requires-Dist: pandas
+Requires-Dist: openpyxl
+Requires-Dist: xlsxwriter
+Requires-Dist: numpy
+Requires-Dist: label-studio-sdk
+Requires-Dist: yolov5
+Requires-Dist: flask
+Requires-Dist: flask-cors
+Requires-Dist: flask-restful
+Requires-Dist: flask-socketio
+Requires-Dist: flask-session
+Requires-Dist: flask-login
+Requires-Dist: flask-mail
+Requires-Dist: websocket-client
+Requires-Dist: websockets
+Provides-Extra: dev
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Dynamic: license-file
