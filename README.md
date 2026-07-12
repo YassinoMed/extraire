@@ -77,4 +77,4 @@ python train.py --dataset your_data/ --epochs 20
 ```
 
 ## License
-MIT © 2024 Moffat Kagiri
+MIT © 2026 Yassino
